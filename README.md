@@ -19,7 +19,7 @@ It's very simple!
 
 ## How does it work?
 
-Three simple steps.
+Simple! Two steps only :-)
 
 STEP 1: You add a **deckardwalk** file to your repository. It basically contains paths and their descriptions. The file (**deckardwalk** should be in the main directory of the repository) should look like this:
 
@@ -29,15 +29,16 @@ somedir2/in/repo Some comment
 somedir1/in/somefile2 Write something here
 somedir2/in/somefile2 Well, that's a comment!
 ```
-STEP 2:  You install Deckard using (then you need to run it, the sidebar will show up)
 
-```
-homebrew cask install deckard
-```
-
-STEP 3: You double click on a specific keyword in your IDE and see all the documentation available in Deckard. Not only for that file, but the entire path. (First double click makes Deckard index your data locally, so you may need to wait, usually less than 30 seconds)
+STEP 2: You double click on a specific keyword in your IDE and see all the documentation available in Deckard (either web app or the stand-alone app). Not only for that file, but the entire path. (First double click makes Deckard index your data locally, so you may need to wait, usually less than 30 seconds)
 
 ## Requirements
 
-* You need to download Deckard to browse and comment the documentation. Deckard currently works with Mac and Linux.
-* Deckard currently supports Visual Studio Code, IntelliJ, Atom,  Vim. Want to create a plugin? It's simple! Check out our plugin for Atom here: https://github.com/deckardai/atom-deckard 
+* Just a web browser :-) You will get all the data in the Deckard web app.
+* If you want more of Deckard, you can  download install a stand-alone app for either Mac or Linux. The stand-alone app currently supports Visual Studio Code, IntelliJ, Atom,  Vim. Want to create a plugin? It's simple! Check out our plugin for Atom here: https://github.com/deckardai/atom-deckard 
+
+ * To install the stand-alone Deckard app, run
+ 
+ ```
+homebrew cask install deckard
+```
