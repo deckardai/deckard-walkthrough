@@ -34,7 +34,8 @@ STEP 2: You double click on a specific keyword in your IDE and see all the docum
  ```
 homebrew cask install deckard
 ``` 
-NOTE: First double click makes Deckard index your data (locally), so you may need to wait, usually less than 30 seconds
+NOTE: First double click makes Deckard index your data, so you may need to wait, usually less than 30 seconds
+NOTE: Deckard indexes your data locally. It does send it to the cloud.
 
 ## Requirements
 
