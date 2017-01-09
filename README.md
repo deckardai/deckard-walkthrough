@@ -10,7 +10,7 @@ There are many reasons for that:
 Well, it addresses the above issues: 
 * Knowledge is more structured, thus more useful and less often lost,
 * You can discuss documentation, which makes it more up-to-date, 
-* It does not distract you from writing code-- you have them when you need them,
+* It does not distract you from writing code-- you have them when you need it.
 
 ## Make your documentation talk
 Justwalk is an open format for documenting source code, which you can then browse using Deckard. It allows both you and other developers working on the same project to understand it much faster. You document a file or a directory, and others can immediately see and discuss it in Deckard.
