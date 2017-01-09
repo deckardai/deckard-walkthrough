@@ -18,7 +18,7 @@ It's very simple!
 
 Three simple steps.
 
-1. You add a **deckardwalk** file to your repository. It basically contains paths and their descriptions. The file (**deckardwalk** should be in the main directory of the repository) should look like this:
+STEP 1: You add a **deckardwalk** file to your repository. It basically contains paths and their descriptions. The file (**deckardwalk** should be in the main directory of the repository) should look like this:
 
 ```
 somedir1/in/repo Some description
@@ -26,13 +26,13 @@ somedir2/in/repo Some comment
 somedir1/in/somefile2 Write something here
 somedir2/in/somefile2 Well, that's a comment!
 ```
-2. You install Deckard using (then you need to run it, the sidebar will show up)
+STEP 2:  You install Deckard using (then you need to run it, the sidebar will show up)
 
 ```
 homebrew cask install deckard
 ```
 
-3. You double click on a specific keyword in your IDE and see all the documentation available in Deckard. Not only for that file, but the entire path. (First double click makes Deckard index your data locally, so you may need to wait, usually less than 30 seconds)
+STEP 3: You double click on a specific keyword in your IDE and see all the documentation available in Deckard. Not only for that file, but the entire path. (First double click makes Deckard index your data locally, so you may need to wait, usually less than 30 seconds)
 
 ## Requirements
 
