@@ -19,10 +19,13 @@ It's very simple!
 You add a **deckardwalk** file to your repository. It basically contains paths and their descriptions. Then the other developers can see and discuss your documentation only when learning about that specific part of code.
 
 The file should look like this:
+
+```
 somedir1/in/repo Some description
 somedir2/in/repo Some comment
 somedir1/in/somefile2 Write something here
 somedir2/in/somefile2 Well, that's a comment!
+```
 
 When you browse your code with your IDE, you double click on a specific keyword and see all the documentation available. Not only for that file, but the entire path.
 
