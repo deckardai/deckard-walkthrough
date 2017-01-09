@@ -10,15 +10,15 @@ There are many reasons for that:
 Well, it addresses the above issues. Knowledge is not lost, structured, you can discuss it and it does not distract you from writing code.
 
 ## Make your documentation talk
-Justwalk is an open format for documenting source code, which you can then browse using Deckard. It allows both you and other developers working on the same project to understand it much faster. 
+Justwalk is an open format for documenting source code, which you can then browse using Deckard. It allows both you and other developers working on the same project to understand it much faster. You document a file or a directory, and others can immediately see and discuss it in Deckard.
 
 It's very simple!
 
 ## How does it work?
 
-You add a **deckardwalk** file to your repository. It basically contains paths and their descriptions. Then the other developers can see and discuss your documentation only when learning about that specific part of code.
+Three simple steps.
 
-The file should look like this:
+1. You add a **deckardwalk** file to your repository. It basically contains paths and their descriptions. The file (**deckardwalk** should be in the main directory of the repository) should look like this:
 
 ```
 somedir1/in/repo Some description
@@ -26,8 +26,13 @@ somedir2/in/repo Some comment
 somedir1/in/somefile2 Write something here
 somedir2/in/somefile2 Well, that's a comment!
 ```
+2. You install Deckard using (then you need to run it, the sidebar will show up)
 
-When you browse your code with your IDE, you double click on a specific keyword and see all the documentation available. Not only for that file, but the entire path.
+```
+homebrew cask install deckard
+```
+
+3. You double click on a specific keyword in your IDE and see all the documentation available in Deckard. Not only for that file, but the entire path. (First double click makes Deckard index your data locally, so you may need to wait, usually less than 30 seconds)
 
 ## Requirements
 
