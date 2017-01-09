@@ -2,12 +2,15 @@
 
 ## Why is inline documentation not good enough?
 There are many reasons for that:
-* It takes time to read it, because it's in the source code
-* Comments are completely unstructured and often not up to date
-* It distract you from code, our working memory cannot handle too much
+* It takes time to read it, because it's in the source code,
+* Comments are completely unstructured and often not up to date,
+* It distract you from code, our working memory cannot handle too much.
 
 ## Why is justWalk better?
-Well, it addresses the above issues. Knowledge is not lost, structured, you can discuss it and it does not distract you from writing code.
+Well, it addresses the above issues: 
+* Knowledge is more structured, thus more useful and less often lost,
+* You can discuss documentation, which makes it more up-to-date, 
+* It does not distract you from writing code-- you have them when you need them,
 
 ## Make your documentation talk
 Justwalk is an open format for documenting source code, which you can then browse using Deckard. It allows both you and other developers working on the same project to understand it much faster. You document a file or a directory, and others can immediately see and discuss it in Deckard.
