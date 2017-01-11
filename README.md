@@ -1,6 +1,6 @@
 # JustWalk
 
-Turn your knowledge about a software project into discussable insights, available only when needed.
+Turn your knowledge about a software project into discussable insights, displayed only when needed by Deckard.
 
 ## Why is inline documentation not good enough?
 There are many reasons for that:
