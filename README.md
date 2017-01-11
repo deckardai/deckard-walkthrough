@@ -1,4 +1,6 @@
-# How to make your software documentation talk
+# JustWalk
+
+Turn your knowledge about a software project into discussable insights, available only when needed.
 
 ## Why is inline documentation not good enough?
 There are many reasons for that:
@@ -47,7 +49,7 @@ bob/alice/myFile.txt: |
   Some other message. You will see it when you click on something
   in this file.
 ```
-## Security and privacy.
+## Security and privacy
 Deckard indexes your files locally. It does send them to the cloud. It communicates with your editor to know 
 your current context.
 
