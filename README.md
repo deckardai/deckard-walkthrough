@@ -19,9 +19,16 @@ It's very simple!
 
 ## How does it work?
 
-Simple! Two steps only :-)
+It takes two steps to do it:
 
-STEP 1: Add a **deckardwalk** file to the main directory of your repository. Look at the example below.
+* Add the **deckard.walk** file to the main directory of your repository to turn your documentation into a dynamic one. Look at the example below.
+* Open up your new dynamic documentation in:
+ * View it in https://assist.deckard.ai and/or
+ * Use brew to install Deckard 
+ ```
+ (brew cask install deckard)
+ ```
+ * or download the stand-alone Deckard app (and then install your favorite IDE plugin for it) from https://assist.deckard.ai
 
 ```
 dir1/dir2: |
