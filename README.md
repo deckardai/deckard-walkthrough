@@ -13,7 +13,7 @@ Well, it addresses the above issues:
 * It does not distract you from writing code-- you have them when you need it.
 
 ## Make your documentation talk
-Justwalk is an open format for documenting source code, which you can then browse using Deckard. It allows both you and other developers working on the same project to understand it much faster. You document a file or a directory, and others can immediately see and discuss it in Deckard.
+Justwalk is a YAML-based open format for documenting source code, which you can then browse using Deckard. It allows both you and your teammates to understand it much faster. You document a file or a directory, and others can immediately see and discuss it in Deckard. You turn your knowledge into discussable insights associated with files or directories, and see them only when you work on those files/directories.
 
 It's very simple!
 
