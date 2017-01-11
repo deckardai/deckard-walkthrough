@@ -50,7 +50,7 @@ bob/alice/myFile.txt: |
   in this file.
 ```
 ## Security and privacy
-Deckard indexes your files locally. It does not send them to the cloud. It communicates with your editor to know 
+Deckard indexes your files on your local machine. It does not send them to the cloud. It communicates with your editor to know 
 your current context.
 
 ## Requirements
