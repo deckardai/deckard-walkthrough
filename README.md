@@ -21,13 +21,24 @@ It's very simple!
 
 Simple! Two steps only :-)
 
-STEP 1: You add a **deckardwalk** file to your repository. It basically contains paths and their descriptions (both files and directories can be documented). The file (**deckardwalk** should be in the main directory of the repository) should look like this:
+STEP 1: Add a **deckardwalk** file to the main directory of your repository. Look at the example below.
 
 ```
-somedir1/in/repo Some description
-somedir2/in/repo Some comment
-somedir1/in/somefile2 Write something here
-somedir2/in/somefile2 Well, that's a comment!
+dir1/dir2: |
+  This is an example message you will see when you double click
+  on the content in this directory
+
+abc/def/somefile.py: |
+  Some other message. You will see it when you click on something
+  in this file.
+
+one/two/three: |
+  This is an example message you will see when you double click
+  on the content in this directory
+
+bob/alice/myFile.txt: |
+  Some other message. You will see it when you click on something
+  in this file.
 ```
 
 STEP 2: You double click on a specific keyword in your IDE and see all the documentation available in the Deckard web app. If you want to check out of Deckard, install the stand-alone app for either Linux or Mac using 
