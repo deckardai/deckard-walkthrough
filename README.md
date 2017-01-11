@@ -47,13 +47,9 @@ bob/alice/myFile.txt: |
   Some other message. You will see it when you click on something
   in this file.
 ```
-
-STEP 2: You double click on a specific keyword in your IDE and see all the documentation available in the Deckard web app. If you want to check out of Deckard, install the stand-alone app for either Linux or Mac using 
- ```
-homebrew cask install deckard
-``` 
-NOTE: First double click makes Deckard index your data, so you may need to wait, usually less than 30 seconds
-NOTE: Deckard indexes your data locally. It does send it to the cloud.
+## Security and privacy.
+Deckard indexes your files locally. It does send them to the cloud. It communicates with your editor to know 
+your current context.
 
 ## Requirements
 
