@@ -1,4 +1,4 @@
-# deckard-walk-through
+# Deckard Walkthrough
 
 Turn your knowledge about a software project into discussable insights, displayed only when needed by Deckard.
 
