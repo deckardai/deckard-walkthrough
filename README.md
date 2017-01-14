@@ -1,4 +1,4 @@
-# JustWalk
+# Deckard Walkthrough
 
 Turn your knowledge about a software project into discussable insights, displayed only when needed by Deckard.
 
@@ -23,7 +23,7 @@ It's very simple!
 
 It takes two steps to do it:
 
-* Add the **deckard.walk** file to the main directory of your repository to turn your documentation into a dynamic one. Look at the example below.
+* Add the **Deckard_Walkthrough.yaml** file to the main directory of your repository to turn your documentation into a dynamic one. Look at the example below.
 * Open up your new dynamic documentation in:
  * View it in https://assist.deckard.ai and/or
  * Use brew to install Deckard 
